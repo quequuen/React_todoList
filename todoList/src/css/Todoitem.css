@@ -1,0 +1,32 @@
+.TodoItem {
+  display: flex;
+  width: 100%;
+  height: 15%;
+  align-items: center;
+  gap: 5%;
+  font-size: 14px;
+  border-bottom: 1px solid lightgray;
+}
+
+.content {
+  width: 65%;
+}
+
+.date {
+  width: 15%;
+  color: rgb(130, 130, 130);
+}
+
+.TodoItem button {
+  border: none;
+  width: 6.5%;
+  height: 25%;
+  background-color: rgb(223, 223, 223);
+  border-radius: 5px;
+  font-size: 10px;
+  writing-mode: horizontal-tb;
+}
+
+.TodoItem button:hover {
+  background-color: lightgray;
+}

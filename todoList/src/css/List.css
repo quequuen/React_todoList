@@ -1,0 +1,26 @@
+h1 {
+  margin-bottom: 7%;
+}
+
+.List {
+  width: 100%;
+  height: 75%;
+}
+
+.search_area {
+  width: 100%;
+  height: 80%;
+}
+
+.List input[type="text"] {
+  width: 99%;
+  height: 7%;
+  font-size: 12px;
+  border: 2px solid rgb(190, 190, 190);
+  border-width: 0 0 1px;
+}
+
+.lists {
+  width: 100%;
+  height: 100%;
+}
