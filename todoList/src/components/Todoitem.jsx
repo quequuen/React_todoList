@@ -9,8 +9,6 @@ const TodoItem = ({ id, isDone, content, date, onUpdate, onDelete }) => {
     onDelete(id);
   };
 
-  //충돌 방지
-
   return (
     <div className="TodoItem">
       <input
