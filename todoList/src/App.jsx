@@ -45,6 +45,7 @@ function App() {
       ...todos, //먼저 작성된 list가 아래로 감
     ]);
   };
+
   return (
     <div className="App">
       <Header />
